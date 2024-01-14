@@ -1,5 +1,5 @@
 import 'package:church_app/pages/pages.dart';
-
+import 'package:church_app/components/navbar_bottom.dart';
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -17,7 +17,7 @@ class _HomePageState extends State<HomePage> {
       backgroundColor: Colors.grey,
       appBar: AppBar(
         title: const Center(
-          child: Text('God church'),
+          child: Text('Command of Faith'),
         ),
         leading: const Icon(Icons.menu),
         actions: const [
